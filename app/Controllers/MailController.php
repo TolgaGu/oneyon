@@ -21,9 +21,9 @@ class MailController extends Controller
             extract($_POST);
             if (!empty($nom) && !empty($email) && !empty($message)) {
                 $message = str_replace("\'", "'", $message);
-                $destinataire = "contact@garagetim.fr";
+                $destinataire = "yozgatolga66@gmail.com";
                 $sujet = "Contact";
-                $msg = "Une nouvelle question est arrivée \n
+                $msg = "mail oneyon \n
       Nom : $nom \n
       Email : $email \n
       Message : $message ";
