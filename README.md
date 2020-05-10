@@ -9,7 +9,10 @@ npm install
 ```
 npm run serve -- -- port 8081
 ```
-
+### Démarrage VueJs
+```
+npm run serve
+```
 ### Compiles and minifies for production
 ```
 npm run build
